@@ -1,0 +1,208 @@
+/* цвет основного текста color: #757575;  */
+/* вторичный цвет текста color: #212121; */
+/* белый color: #FFFFFF; */
+/* акцент color: #2196F3; */
+/* цвет контакта rgba(255, 255, 255, 0.6); */
+/* основной цвет фона background: #FFFFFF; */
+/* вторичный цвет фона background: #2F303A; */
+/* дополнительный цвет фона background: #F5F4FA; */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --white-color: #FFFFFF;
+    --accent-color: #2196F3;
+    --contact-color: rgba(255, 255, 255, 0.6);
+    --additional-bg-color: #F5F4FA;
+    --secondary-bg-color: #2F303A;
+}
+
+body {
+    background-color: var(--white-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.list {
+    list-style: none;
+}
+
+/* logo */
+.logo {
+    color: var(--accent-color);
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.logo .accent {
+    color: var(--title-text-color);
+}
+
+/* site-nav */
+.site-nav .link {
+    color: var(--title-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* contacts */
+.contacts .link {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--accent-color);
+}
+
+/* стили для index.html */
+
+/* hero */
+.hero-title {
+    color: var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+.hero {
+    background-color: var(--secondary-bg-color);
+}
+
+/* feature-list */
+.title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+/* section */
+.section-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+/* our team */
+.members .title {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.member .role {
+    font-size: 16px;
+    line-height: 1.19px;
+}
+
+.team {
+    background-color: var(--additional-bg-color);
+}
+
+/* button */
+.button {
+    color: var(--title-text-color);
+    background-color: var(--additional-bg-color);
+    font-family: inherit;
+}
+
+.button.primary {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+
+/* footer */
+.logo .accent-footer {
+    color: var(--white-color);
+}
+
+.address .link {
+    color: var(--white-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none;
+    
+}
+
+.address .contact {
+    color: var(--contact-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none;
+}
+
+.address {
+    background-color: var(--secondary-bg-color);
+}
+
+/* стили для potfolio.html */
+
+/* work-list */
+.button.secondary {
+    color: var(--title-text-color);
+    background-color: var(--additional-bg-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;   
+}
+
+.button.secondary:hover,
+.button.secondary:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+.work-nav .title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.work-nav .description {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+.work-nav .link {
+    text-decoration: none;
+}
